@@ -22,77 +22,84 @@
       <div class="circle active"></div>
       <div class="circle active"></div>
     </div>
-
+    <div class="message">
+      <img src="./assets/chat.png" alt="" />
+    </div>
     <div class="maincontent">
       <section class="pages first_page">
-        <div class="text">
-          <h1 id="text">ABC 456</h1>
-          <p id="animate">We are the best Webdevlopment compant in the world</p>
-          <br />
-          <a href="#" class="more">View Case Study&#8594;</a>
+        <div class="text" id="text_1">
+          <div class="topic">
+            <h1>ABC 456</h1>
+            <p id="animate">
+              We are the best Webdevlopment compant in the world
+            </p>
+            <br />
+            <a href="#" class="more">View Case Study&#8594;</a>
+          </div>
         </div>
         <div class="image">Image Corner</div>
       </section>
       <section class="pages second_page">
-        <div class="text">
-          <h1>ABC 345</h1>
+        <div class="text" id="text_2">
+          <!-- <h1>ABC 345</h1>
           <p>We are the best Webdevlopment compant in the world</p>
           <br />
-          <a href="#" class="more">View Case Study&#8594;</a>
+          <a href="#" class="more">View Case Study&#8594;</a> -->
         </div>
-        <div class="image">Image Corner</div>
+        <div class="image" id="img_2">Image Corner</div>
       </section>
       <section class="pages third_page">
-        <div class="text">
-          <h1>ABC 234</h1>
+        <div class="text" id="text_3">
+          <!-- <h1>ABC 234</h1>
           <p>We are the best Webdevlopment compant in the world</p>
           <br />
-          <a href="#" class="more">View Case Study&#8594;</a>
+          <a href="#" class="more">View Case Study&#8594;</a> -->
         </div>
-        <div class="image">Image Corner</div>
+        <div class="image" id="img_3">Image Corner</div>
       </section>
-      <!-- 
-    <div class="pages fourth_page">
-      <div class="text">
-        <h1>ABC 123</h1>
-        <p>We are the best Webdevlopment compant in the world</p>
-        <br />
-        <a href="#" class="more">View Case Study&#8594;</a>
-      </div>
-      <div class="image">Image Corner</div>
-    </div>
-    <div class="pages fifth_page">
-      <div class="text">
-        <h1>ABC 567</h1>
-        <p>We are the best Webdevlopment compant in the world</p>
-        <br />
-        <a href="#" class="more">View Case Study&#8594;</a>
-      </div>
-      <div class="image">Image Corner</div>
-    </div>
-    <div class="pages sixth_page">
-      <div class="text">
-        <h1>ABC 678</h1>
-        <p>We are the best Webdevlopment compant in the world</p>
-        <br />
-        <a href="#" class="more">View Case Study&#8594;</a>
-      </div>
-      <div class="image">Image Corner</div>
-    </div>
-    <div class="pages seventh_page">
-      <div class="text">
-        <div class="texts">
-          <h1>ABC 23478</h1>
+      <section class="pages fourth_page">
+        <div class="text" id="text_4">
+          <!-- <h1>ABC 123</h1>
           <p>We are the best Webdevlopment compant in the world</p>
           <br />
-          <a href="#" class="more">View Case Study&#8594;</a>
+          <a href="#" class="more">View Case Study&#8594;</a> -->
         </div>
+        <div class="image" id="img_4">Image Corner</div>
+      </section>
+      <section class="pages fifth_page">
+        <div class="text" id="text_5">
+          <!-- <h1>ABC 567</h1>
+          <p>We are the best Webdevlopment compant in the world</p>
+          <br />
+          <a href="#" class="more">View Case Study&#8594;</a> -->
+        </div>
+        <div class="image" id="img_5">Image Corner</div>
+      </section>
+      <section class="pages sixth_page">
+        <div class="text" id="text_6">
+          <!-- <h1>ABC 678</h1>
+          <p>We are the best Webdevlopment compant in the world</p>
+          <br />
+          <a href="#" class="more">View Case Study&#8594;</a> -->
+        </div>
+        <div class="image" id="img_6">Image Corner</div>
+      </section>
+      <div class="pages seventh_page">
+        <div class="text" id="text_7">
+          <!-- <h1>ABC 23478</h1>
+            <p>We are the best Webdevlopment compant in the world</p>
+            <br />
+            <a href="#" class="more">View Case Study&#8594;</a> -->
+        </div>
+        <div class="image" id="img_7">Image Corner</div>
       </div>
-      <div class="image">Image Corner</div>
-    </div> -->
-    </div>
+      <!-- 
+    
+    
+    
+    --></div>
 
-    <div class="svg">
+    <div class="svg" id="svg_mid">
       <svg
         version="1.1"
         id="transring"
@@ -120,7 +127,7 @@
         ></path>
 
         <path
-          id="Opaque_Ring"
+          id="Opaque_Ring stroke_line"
           class="transrgwht"
           stroke-dasharray="0,1000"
           style="
@@ -128,7 +135,7 @@
             stroke: rgb(255, 255, 255);
             stroke-width: 2;
             stroke-miterlimit: 10;
-            stroke-dasharray: 280, 1000;
+            stroke-dasharray: 0, 1000;
           "
           d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
         c-47.8,0-91-19.4-122.3-50.7"
@@ -139,6 +146,7 @@
             <path
               class="dotsst dotsfill1"
               style="fill: rgb(0, 146, 255); opacity: 1"
+              id="blue_1"
               d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"
             ></path>
           </g>
@@ -160,7 +168,8 @@
           <g>
             <path
               class="dotsst dotsfill2"
-              style="fill: rgb(0, 146, 255); opacity: 1"
+              id="blue_2"
+              style="fill: rgb(255, 255, 255); opacity: 1"
               d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8"
             ></path>
           </g>
