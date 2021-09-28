@@ -15,6 +15,7 @@ function scrollFunction() {
     document.getElementById("svg_mid").style.backgroundColor = "#15233a";
     document.getElementById("text_2").style.backgroundColor = "#15233a";
     document.getElementById("img_2").style.backgroundColor = "#0E131C";
+    document.getElementById("blue_2").style.fill = "#fff";
   }
   if (scrolled >= windowHeight - 10 && scrolled < windowHeight * 2 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#0E103A";
@@ -22,6 +23,8 @@ function scrollFunction() {
     document.getElementById("img_2").style.backgroundColor = "#151648";
     document.getElementById("text_3").style.backgroundColor = "#0E103A";
     document.getElementById("img_3").style.backgroundColor = "#151648";
+    document.getElementById("blue_2").style.fill = "#0092ff";
+    document.getElementById("blue_3").style.fill = "#fff";
   }
   if (scrolled >= windowHeight * 2 - 10 && scrolled < windowHeight * 3 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#4E27CE";
@@ -29,6 +32,8 @@ function scrollFunction() {
     document.getElementById("img_3").style.backgroundColor = "#1D0363";
     document.getElementById("text_4").style.backgroundColor = "#4E27CE";
     document.getElementById("img_4").style.backgroundColor = "#1D0363";
+    document.getElementById("blue_3").style.fill = "#0092ff";
+    document.getElementById("blue_4").style.fill = "#fff";
   }
   if (scrolled >= windowHeight * 3 - 10 && scrolled < windowHeight * 4 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#4623BF";
@@ -36,6 +41,8 @@ function scrollFunction() {
     document.getElementById("img_4").style.backgroundColor = "#CDCBCF";
     document.getElementById("text_5").style.backgroundColor = "#4623BF";
     document.getElementById("img_5").style.backgroundColor = "#CDCBCF";
+    document.getElementById("blue_4").style.fill = "#0092ff";
+    document.getElementById("blue_5").style.fill = "#fff";
   }
   if (scrolled >= windowHeight * 4 - 10 && scrolled < windowHeight * 5 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#124AA3";
@@ -44,6 +51,8 @@ function scrollFunction() {
     document.getElementById("text_6").style.backgroundColor = "#124AA3";
     document.getElementById("img_6").style.backgroundColor = "#2ECCDC";
     document.getElementById("img_6").style.backgroundImage = "#2ECCDC";
+    document.getElementById("blue_5").style.fill = "#0092ff";
+    document.getElementById("blue_6").style.fill = "#fff";
   }
   if (scrolled >= windowHeight * 5 - 10 && scrolled < windowHeight * 6 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#022A91";
@@ -58,6 +67,8 @@ function scrollFunction() {
     ).style.backgroundImage = `url('../assets/interior.jpg')`;
     document.getElementById("img_7").style.backgroundSize = "cover";
     document.getElementById("img_7").style.backgroundRepeat = "no-repeat";
+    document.getElementById("blue_6").style.fill = "#0092ff";
+    document.getElementById("blue_7").style.fill = "#fff";
   }
   if (scrolled >= windowHeight * 6 - 10 && scrolled < windowHeight * 7 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#01824D";
@@ -65,6 +76,7 @@ function scrollFunction() {
     document.getElementById("img_7").style.backgroundColor = "#01B76A";
     document.getElementById("img_7").style.backgroundImage =
       "linear-gradient(to bottom, #01B76A 100%, #01B76A 100%)";
+    document.getElementById("blue_7").style.fill = "#0092ff";
   }
 }
 
