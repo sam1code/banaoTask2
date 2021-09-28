@@ -6,7 +6,7 @@ body {
           box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  color: #5d6a7cff;
+  color: #bcc3ce;
 }
 
 .message {
@@ -71,7 +71,7 @@ body {
   }
   body .maincontent .pages .text a {
     text-decoration: none;
-    color: #5d6a7c;
+    color: #bcc3ce;
   }
   body .maincontent .pages .image {
     -webkit-box-flex: 7;

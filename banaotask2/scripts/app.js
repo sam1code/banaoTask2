@@ -4,6 +4,7 @@
 // function scrollFunction() {
 //   console.log("Scrolled" + Math.round(document.documentElement.scrollTop));
 // }
+gsap.registerPlugin(ScrollTrigger);
 const windowHeight = window.innerHeight;
 document.querySelector(".maincontent").onscroll = function () {
   scrollFunction();
@@ -16,6 +17,18 @@ function scrollFunction() {
     document.getElementById("text_2").style.backgroundColor = "#15233a";
     document.getElementById("img_2").style.backgroundColor = "#0E131C";
     document.getElementById("blue_2").style.fill = "#fff";
+    gsap.to(".h1", {
+      scrollTrigger: {
+        trigger: ".h1",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
+        start: "20% 80%",
+        // end: "60% 40%",
+        // scrub: true,
+      },
+      y: 0,
+      duration: 1,
+    });
   }
   if (scrolled >= windowHeight - 10 && scrolled < windowHeight * 2 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#0E103A";
@@ -25,6 +38,32 @@ function scrollFunction() {
     document.getElementById("img_3").style.backgroundColor = "#151648";
     document.getElementById("blue_2").style.fill = "#0092ff";
     document.getElementById("blue_3").style.fill = "#fff";
+    gsap.to(".h1", {
+      scrollTrigger: {
+        trigger: ".h1",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
+        start: "20% 80%",
+        // end: "60% 40%",
+        // scrub: true,
+      },
+      y: -40,
+      duration: 1,
+    });
+    setTimeout(() => {
+      gsap.to(".h1", {
+        scrollTrigger: {
+          trigger: ".h1",
+          toggleActions: "restart pause reverse pause",
+          markers: true,
+          start: "20% 80%",
+          // end: "60% 40%",
+          // scrub: true,
+        },
+        y: 0,
+        duration: 1,
+      });
+    }, 1000);
   }
   if (scrolled >= windowHeight * 2 - 10 && scrolled < windowHeight * 3 - 10) {
     document.getElementById("svg_mid").style.backgroundColor = "#4E27CE";
@@ -79,6 +118,16 @@ function scrollFunction() {
     document.getElementById("blue_7").style.fill = "#0092ff";
   }
 }
+
+// let tween = gsap.to(".text_2", { x: 100 }),
+//   st = ScrollTrigger.create({
+//     trigger: ".text_1",
+//     start: "top center",
+//     end: "+=500",
+//     animation: tween,
+//   });
+
+// console.log(st.animation);
 
 // var controller = new ScrollMagic.Controller();
 // var scene = new ScrollMagic.Scene({ triggerElement: "#text" })
