@@ -12,7 +12,7 @@ function scrollFunction() {
       scrollTrigger: {
         trigger: ".h1",
         toggleActions: "restart pause reverse pause",
-        markers: true,
+//         markers: true,
         start: "20% 80%",
         // end: "60% 40%",
         // scrub: true,
@@ -25,7 +25,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
           // end: "60% 40%",
           // scrub: true,
@@ -45,7 +45,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -10,
@@ -55,7 +55,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -10,
@@ -70,7 +70,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -20,
@@ -85,7 +85,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -10,
@@ -116,7 +116,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -20,
@@ -131,7 +131,7 @@ function scrollFunction() {
         scrollTrigger: {
           trigger: ".h1",
           toggleActions: "restart pause reverse pause",
-          markers: true,
+//           markers: true,
           start: "20% 80%",
         },
         y: -20,
