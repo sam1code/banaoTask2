@@ -5,7 +5,7 @@ document.querySelector(".maincontent").onscroll = function () {
 };
 function scrollFunction() {
   let scrolled = Math.round(document.querySelector(".maincontent").scrollTop);
-  console.log("Scrolled" + scrolled + "\n" + windowHeight);
+  // console.log("Scrolled" + scrolled + "\n" + windowHeight);
 
   const animation = () => {
     gsap.to(".h1", {
@@ -171,7 +171,7 @@ function scrollFunction() {
     document.getElementById("svg_mid").style.backgroundColor = "#6211A7";
     document.getElementById("text_4").style.backgroundColor = "#6211A7";
     document.getElementById("img_4").style.backgroundColor = "#CDCBCF";
-    document.getElementById("text_5").style.backgroundColor = "#4623BF";
+    document.getElementById("text_5").style.backgroundColor = "#6211A7";
     document.getElementById("img_5").style.backgroundColor = "#CDCBCF";
     document.getElementById("blue_4").style.fill = "#0092ff";
     document.getElementById("blue_5").style.fill = "#fff";

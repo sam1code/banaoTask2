@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "inline-scripts": "^1.7.4"
-  },
-  "scripts": {
-    "start": "inline-scripts src/index.html out/index.html ."
-  }
-}

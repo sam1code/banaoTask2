@@ -9,7 +9,23 @@ body {
   color: #bcc3ce;
 }
 
-@media only screen and (min-width: 600px) and (min-height: 450px) {
+a {
+  text-decoration: none;
+  color: #bcc3ce;
+}
+
+button {
+  display: none;
+}
+
+.mobile_visible {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) and (min-height: 250px) {
+  body {
+    overflow-y: hidden;
+  }
   body .message {
     position: absolute;
     display: block;
@@ -84,20 +100,21 @@ body {
   }
   .image #pizza_box {
     position: absolute;
-    top: 0rem;
-    height: 23vh;
-    width: 30vw;
+    top: 0;
+    height: 15vh;
+    width: 20vw;
   }
   .image #dominos_mob {
     position: absolute;
     top: 0;
     right: 13vw;
-    height: 60vh;
+    height: 55vh;
   }
   .image #dominos_bread {
     position: absolute;
-    top: -10vh;
-    right: 0rem;
+    top: -5vh;
+    right: 0;
+    height: 15vh;
   }
   .image #dominos_bread1 {
     position: absolute;
@@ -108,8 +125,8 @@ body {
   .image #domi_img1 {
     position: absolute;
     bottom: 0;
-    height: 40vh;
-    right: 38vw;
+    height: 50vh;
+    right: 28vw;
   }
   .image #measure_total {
     position: absolute;
@@ -134,6 +151,139 @@ body {
     right: 25vw;
     bottom: 0;
     height: 55vh;
+  }
+  .image #nexgtv_1 {
+    position: absolute;
+    right: 2vw;
+    width: 30vw;
+    max-width: 22rem;
+    top: 10vh;
+  }
+  .image #nexgtv_2 {
+    position: absolute;
+    width: 30vw;
+    right: 25vw;
+    top: 10vh;
+    max-width: 22rem;
+  }
+  .image #img_5_png {
+    position: absolute;
+    top: 0;
+    height: 20rem;
+  }
+  .image #img_6_png {
+    position: absolute;
+    top: 0;
+    right: 22vw;
+    height: 20rem;
+  }
+  .image #img_7_png {
+    position: absolute;
+    top: 25vh;
+    height: 25rem;
+    right: 2rem;
+  }
+  .image #img_8_png {
+    position: absolute;
+    top: 70vh;
+    height: 25rem;
+  }
+  .image #img_9_png {
+    position: absolute;
+    top: 72vh;
+    right: 20vw;
+    height: 13rem;
+  }
+  .image #single {
+    width: 57vw;
+  }
+  .image #melto_1 {
+    position: absolute;
+    bottom: 0;
+    height: 65vh;
+    right: 20.5rem;
+  }
+  .image #melto_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    bottom: 1rem;
+    z-index: 100;
+    right: 30vw;
+  }
+  .buttons .circle {
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #7e7e86;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .buttons .active {
+    background-color: #fff;
+  }
+  .svg {
+    display: none;
+  }
+  .message {
+    display: none;
+  }
+  .mobile_visible {
+    display: block;
+  }
+  .desktop_visible {
+    display: none;
+  }
+  button {
+    display: none;
+    border-radius: 50px;
+    padding: 1rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #7e7e86;
+  }
+  .maincontent {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .maincontent .pages {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .maincontent .pages .text {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    width: 100vw;
+    scroll-snap-align: start;
+  }
+  .maincontent .pages .image {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
   }
 }
 /*# sourceMappingURL=main.css.map */
