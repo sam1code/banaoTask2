@@ -9,10 +9,6 @@ body {
   color: #bcc3ce;
 }
 
-.message {
-  display: none;
-}
-
 @media only screen and (min-width: 600px) and (min-height: 450px) {
   body .message {
     position: absolute;
@@ -22,6 +18,7 @@ body {
     width: 5rem;
     height: 5rem;
     cursor: pointer;
+    z-index: 100;
   }
   body .message img {
     width: 5rem;
@@ -29,9 +26,9 @@ body {
   }
   body .svg {
     position: fixed;
-    top: 28vh;
-    height: 17rem;
-    width: 17rem;
+    top: 15vh;
+    height: 20rem;
+    width: 20rem;
     background-color: #15233a;
     border-radius: 50%;
     left: 28vw;
@@ -53,9 +50,12 @@ body {
     scroll-snap-align: start;
   }
   body .maincontent .pages h1 {
-    font-size: 5rem;
-    margin-bottom: -2rem;
+    font-size: 4rem;
+    margin-bottom: -1rem;
     color: #fff;
+  }
+  body .maincontent .pages h1 p {
+    font-size: large;
   }
   body .maincontent .pages .text {
     -webkit-box-flex: 5;
@@ -78,6 +78,62 @@ body {
         -ms-flex: 7;
             flex: 7;
     background-color: #0e131c;
+  }
+  .image {
+    position: relative;
+  }
+  .image #pizza_box {
+    position: absolute;
+    top: 0rem;
+    height: 23vh;
+    width: 30vw;
+  }
+  .image #dominos_mob {
+    position: absolute;
+    top: 0;
+    right: 13vw;
+    height: 60vh;
+  }
+  .image #dominos_bread {
+    position: absolute;
+    top: -10vh;
+    right: 0rem;
+  }
+  .image #dominos_bread1 {
+    position: absolute;
+    height: 15vh;
+    bottom: 0rem;
+    right: 1vw;
+  }
+  .image #domi_img1 {
+    position: absolute;
+    bottom: 0;
+    height: 40vh;
+    right: 38vw;
+  }
+  .image #measure_total {
+    position: absolute;
+    height: 60vh;
+    top: 0vh;
+    right: 5vw;
+  }
+  .image #nasa_fitness {
+    position: absolute;
+    height: 65vh;
+    bottom: 0;
+    right: 25vw;
+  }
+  .image #veme_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60vh;
+  }
+  .image #veme_bottom {
+    position: absolute;
+    right: 25vw;
+    bottom: 0;
+    height: 55vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
